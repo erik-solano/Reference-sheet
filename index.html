@@ -1,0 +1,592 @@
+ <!DOCTYPE html>
+
+ <html>
+    <head>
+        <title>HTML/CSS Reference</title>
+        <link rel="stylesheet" href="./resources/css/index.css">
+    </head>
+
+    <body>
+        <!-- Banner -->
+        <header class="banner">
+            <div id="top">
+                <h1>HTML/CSS Reference</h1>
+            </div>
+            <!-- Buttons -->
+            <div class="buttons">
+                <!-- HTML Button -->
+                    <a href="#HTML">
+                        <button type="button" class="button">
+                                <span class="button__text">HTML</span>
+                                <span class="button__icon">
+                                    <ion-icon name="logo-html5"></ion-icon>
+                                </span>    
+                        </button>
+                    </a>
+            
+            <!-- CSS Button-->
+                <a href="#CSS">   
+                    <button type="button" class="button">
+                        <span class="button__text">CSS</span>
+                        <span class="button__icon">
+                            <ion-icon name="logo-css3"></ion-icon>
+                        </span>
+                </button>
+                </a>
+            </div>
+            <!-- Buttons -->
+        </header>
+        <!-- Banner -->
+
+        
+        <!-- HTML Cheat-Sheet -->
+        <div id="HTML">
+            <span class="HTML_banner">
+                <h2>
+                    HTML
+                </h2>
+                <ion-icon name="logo-html5"></ion-icon>
+            </span>
+        </div>
+
+        
+        <!-- HTML Table -->
+        <table>
+        <tr>
+            <th>HTML Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+            
+        <tr>
+            <td>
+                <span style="background-color: rgb(231, 199, 150)"> &lt;html&gt;</span>
+            </td>
+            
+            <td>
+                HTML
+            </td>
+
+            <td>
+                The &lt;html&gt; tag represents the root of an HTML document.
+                <div> The &lt;html&gt; is the container for all other HTML elements</div>
+            </td>
+            
+            <td>
+                &lt;!DOCTYPE html&gt;
+                <div><span style="background-color: rgb(231, 199, 150)">&lt;html&gt;</span></div> 
+                <div>Insert code here. Include the head and body tags</div>
+                <div><span style="background-color: rgb(231, 199, 150)">&lt;/html&gt;</span></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <span style="background-color: rgb(231, 199, 150)">&lt;head&gt;</span>
+            </td>
+                
+            <td>
+                Head
+            </td>
+
+            <td>
+               The &lt;head&gt; element is a container for metadata (data about data) and is placed between the &lt;html&gt; tag and the &lt;body&gt; tag.
+                <div></div>
+                <br>This tag contains links (fonts or stylesheets), meta data, and title data.</br>
+            </td>
+
+            <td>
+                <span style="background-color: rgb(231, 199, 150)">&lt;head&gt;</span>
+                <div>Insert any links to CSS stylesheets, title of your webpage and meta data</div>
+                <span style="background-color: rgb(231, 199, 150)">&lt;/head&gt;</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <span style="background-color: rgb(231, 199, 150)">&lt;body&gt;</span>
+            </td>
+
+            <td>
+                Body
+            </td>
+
+            <td>
+                The &lt;body&gt; tag defines the document's body.
+                <div>The &lt;body&gt; element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</div>
+            </td>
+
+            <td>
+                <span style="background-color: rgb(231, 199, 150)">&lt;body&gt;</span>
+                <div>Enter your heading</div>
+                <div>Enter a paragraph</div>
+                <div>Enter links, images, videos, or gifs</div>
+                <span style="background-color: rgb(231, 199, 150)">&lt;/body&gt;</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <span style="background-color: rgb(231, 199, 150)">&lt;h1&gt; - &lt;h6&gt;</span>
+            </td>
+
+            <td>
+                Heading(s)
+            </td>
+
+            <td>
+                The &lt;h1&gt; - &lt;h6&gt; tags are used to degine HTML headings.
+                <div>&lt;h1&gt; degines the most important heading. &lt;h6&gt; defines the least important heading</div>
+                <br>NOTE: only use one &lt;h1&gt; per page. This should represent the main heading/subject for the whole page</br>
+            </td>
+
+            <td>
+                &lt;body&gt;
+                <div><span style="background-color: rgb(231, 199, 150)">&lt;h1-h6&gt; "This is a heading" &lt;h1-h6&gt;</span></div>
+                &lt;/body&gt;
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <span style="background-color: rgb(231, 199, 150)">&lt;img&gt;</span>
+            </td>
+
+            <td>
+                Image
+            </td>
+
+            <td>
+                The &lt;img&gt; tag is used to embed an image in an HTML page.
+                <br>Images are not technically inserted into a web page; images are linked to web pages. The &lt;img&gt; tag creates a holding space for the referenced image.</br>
+                <br>The &lt;img&gt; tag has two required attributes:</br>
+                <div>- src - Specifies the path to the image</div>
+                <div>- alt - Specifies an alternate text for the image, if the image for some reason cannot be displayed</div>
+            </td>
+
+            <td>
+                <span style="background-color: rgb(231, 199, 150)">&lt;img</span> src="image.jpg" alt="image" width="" height=""<span style="background-color: rgb(231, 199, 150)">&gt;</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <span style="background-color: rgb(231, 199, 150)">&lt;video&gt;</span>
+            </td>
+
+            <td>
+                Video
+            </td>
+
+            <td>
+                The HTML &lt;video&gt; element is used to show a video on a web page.
+            </td>
+
+            <td>
+                <span style="background-color: rgb(231, 199, 150)">&lt;video</span> width="" height="" controls <span style="background-color: rgb(231, 199, 150)">&gt</span>
+                <div></div>
+                <br>&lt;source src ="movie.mp4" type ="video/mp4"&gt;</br>
+                <div>This browser doesn't support video tag.</div>
+                <br><span style="background-color: rgb(231, 199, 150)">&lt;/video&gt;</span></br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <span style="background-color: rgb(231, 199, 150)">&lt;audio&gt;</span>
+            </td>
+
+            <td>
+                Audio
+            </td>
+
+            <td>
+                To play an audio file in HTML, use the &lt;audio&gt; element.
+                <div></div>
+                <br>You can also add controls and/or autoplay</br>
+            </td>
+
+            <td>
+                <span style="background-color: rgb(231, 199, 150)">&lt;audio</span> controls<span style="background-color: rgb(231, 199, 150)">&gt;</span>
+                <div></div>
+                <br>&lt;source src="audio.mp3" type="audio/mp3"&gt;
+                <br>Your browser does not support the audio element.
+                <div></div>
+                <br><span style="background-color: rgb(231, 199, 150)">&lt;/audio&gt;</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <span style="background-color: rgb(231, 199, 150)">&lt;a&gt;</span>
+            </td>
+
+            <td>
+                Hyperlink
+            </td>
+
+            <td>
+                The &lt;a&gt; tag defines a hyperlink, which is used to link from one page to another.
+                <div></div>
+                <br>The most important attribute of the &lt;a&gt; element is the href attribute, which indicates the link's destination.
+            </td>
+
+            <td>
+                <span style="background-color: rgb(231, 199, 150)">&lt;a</span> href="website.com"<span style="background-color: rgb(231, 199, 150)">&gt;</span>This is a hyper link. <span style="background-color: rgb(231, 199, 150)">&lt;/a&gt;</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <span style="background-color: rgb(231, 199, 150)">&lt;header&gt;</span>
+            </td>
+
+            <td>
+                Header
+            </td>
+
+            <td>
+                The &lt;header&gt; element represents a container for introductory content or a set of navigational links.
+                <div></div>
+                <br>A &lt;header&gt; element typically contains:
+                <div></div>
+                <br>-one or more heading elements (&lt;h1&gt; - &lt;h6&gt;)
+                <br>-logo or icon
+                <br>-authorship information
+            </td>
+
+            <td>
+                <span style="background-color: rgb(231, 199, 150)">&lt;header&gt;</span>
+                <div></div>
+                <br>&lt;h1&gt; Heading here &lt;/h1&gt;
+                <div>&lt;p&gt; Additional info &lt;/p&gt;</div>
+                <div></div>
+                <br><span style="background-color: rgb(231, 199, 150)">&lt;/header&gt;</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <span style="background-color: rgb(231, 199, 150)">&lt;footer&gt;</span>
+            </td>
+
+            <td>
+                Footer
+            </td>
+
+            <td>
+                The &lt;footer&gt; tag defines a footer for a document or section.
+                <div></div>
+                <br>A &lt;footer&gt; element typically contains:
+                <div></div>
+                <br>-authorship information
+                <br>-copyright information
+                <br>-contact information
+                <br>-back to top links
+                <br>-Etc
+            </td>
+
+            <td>
+                <span style="background-color: rgb(231, 199, 150)">&lt;footer&gt;</span>
+                <div></div>
+                <br>&lt;p&gt; Author | Links | Top of page | Contact
+                <div><br><span style="background-color: rgb(231, 199, 150)">&lt;/footer&gt;</span></div>
+            </td>
+        </tr>
+
+        </table>
+        <!-- HTML Table -->
+
+        <!-- HTML Cheat-Sheet -->
+
+        
+        
+        <!-- CSS Cheat-Sheet -->
+        <div id="CSS">
+            <span class="CSS_banner">
+                <h2>
+                    CSS
+                </h2>
+                <ion-icon name="logo-css3"></ion-icon>
+            </span>
+        </div>
+
+        <!-- CSS Table -->
+        
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Example</th>
+            </tr>
+
+            <tr>
+                <td>
+                    Syntax
+                </td>
+
+                <td>
+                    Selector {
+                    <div></div>
+                    <br>Property: Decleration;
+                    <div></div>
+                    <br>}
+                </td>
+                
+                <td>
+                    h1 {
+                    <div></div>
+                    <br>color: Red;
+                    <div></div>
+                    text-align: center;
+                    <br>}
+                    
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Hexadecimal Colors
+                </td>
+
+                <td>
+                    A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color.
+                </td>
+
+                <td>
+                    Selector {
+                        <div></div>
+                        <br>color: #8FBC8F;
+                        <br>}
+                        <div></div>
+                        <br>This color is (darkseagreen).
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    RGB Colors
+                </td>
+
+                <td>
+                    An RGB color value represents RED, GREEN, and BLUE light sources.
+                    <div></div>
+                    <br>In CSS, a color can be specified as an RGB value, using this formula:
+                    <div>rgb(red, green, blue)</div>
+                    <br>Each parameter (red, green, and blue) defines the intensity of the color between 0 and 255.
+                </td>
+
+                <td>
+                    Selector {
+                        <div></div>
+                        <br>color: rgb(xxx,xxx,xxx);
+                        <br>}
+                        <div></div>
+                        <br>Input values from 0 to 255.
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Hue, Saturation, and Lightness (HSL) Colors
+                </td>
+
+                <td>
+                    HSL stands for hue, saturation, and lightness.
+                    <div></div>
+                    <br>HSL color values are specified with: hsl(hue, saturation, lightness).
+                    <div></div>
+                    <br>Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, 240 is blue.
+                    <div></div>
+                    <br>Saturation is a percentage value; 0% means a shade of gray and 100% is the full color.
+                    <div></div>
+                    <br>Lightness is also a percentage; 0% is black, 100% is white.
+                </td>
+
+                <td>
+                    Selector {
+                        <div></div>
+                        <br>color: hsl(180,50%,50%);
+                        <br>}
+                        <div></div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Opacity and Alpha
+                </td>
+
+                <td>
+                    Alpha is a decimal number from zero to one.
+                    <div>If alpha is zero, the color will be completely transparent. If alpha is one, the color will be opaque.</div>
+                    <div>The value for half-transparent would be 0.5.</div>
+                </td>
+
+                <td>
+                    Selector {
+                        <div></div>
+                        <br>color: hsla(180,50%,50%,0.5);
+                        <br>}
+                        <div></div>
+                    
+                    <div></div>
+                    <br>
+                    Selector {
+                        <div></div>
+                        <br>color: rgba(xxx,xxx,xxx,0.5);
+                        <br>}
+                        <div></div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Font-Family
+                </td>
+
+                <td>
+                    The font-family property specifies the font for an element.
+                    <div></div>
+                    <br>The font-family property can hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font.
+                </td>
+
+                <td>
+                    Selector {
+                        <div></div>
+                        <br>font-family: "Times New Roman";
+                        <br>}
+                        <div></div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Fall Back Fonts
+                </td>
+
+                <td>
+                    CSS font Fallbacks provide a backup for the fonts i.e. if one font doesn't work properly then the browser will try the other one.
+                    <div></div>
+                    <br>For good coding practice write a generic font family at the end of the list and choose the font fallback within the same font family.
+                </td>
+
+                <td>
+                    Selector {
+                        <div></div>
+                        <br>font-family: Carlson, Georgia, "Times New Roman";
+                        <br>}
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Serif and Sans-Serif
+                </td>
+
+                <td>
+                    Serif fonts have extra details on the ends of each letter
+                    <div></div>
+                    <br>Opposed to Sans-Serif fonts, which do not have the extra details.
+                    <div></div>
+                    <br>Serif and sans-serif are also keyword values that can be added as a final fallback font if nothing else in the font stack is available.
+                </td>
+
+                <td>
+                    "Times New Roman" would be considered a serif font. 
+                    <div></div>
+                    <br>"Calibri" would be considerd a sans-serif font.
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Font Weight
+                </td>
+
+                <td>
+                    In CSS, the font-weight property controls how bold or thin text appears.
+                    <div></div>
+                    <br>It can be specified with keywords or numerical values.
+                </td>
+
+                <td>
+                    Selector {
+                        <div></div>
+                        <br>font-weight: bold;
+                        <br>}
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Font Style
+                </td>
+
+                <td>
+                    The font-style property specifies the font style for a text.
+                    <div></div>
+                    <br>Fonts can be:
+                    <div>normal, italic, oblique, initial, inherit</div>
+                </td>
+
+                <td>
+                    Selector {
+                        <div></div>
+                        <br>font-style: italic;
+                        <br>}
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Google Web Fonts
+                </td>
+
+                <td>
+                    Fonts can also be added using a @font-face ruleset in your CSS stylesheet instead of using a link element in your HTML document.
+                    <div></div>
+                    <br>You can download a specific font from Google fonts to obtain the file(s) and it can be stored in your project folder.
+                    <div>Once inside your folder for projects, you can use @font-face property in CSS to style the HTML document with the downloaded font</div>
+                    <br>It is important to note that you should use fallback file formats such WOFF, WOFF 2 and truetype
+                </td>
+
+                <td>
+                    Selector {
+                        <div></div>
+                        <br>font-family: 'MyFont'; src: 
+                        <div>url('fonts/Roboto.woff2') format('woff2')</div>
+                        <div>url('fonts/Roboto.woff2') format('woff')</div>
+                        <div>url('fonts/Roboto.woff2') format('truetype')</div>
+                        <br>}
+                </td>
+            </tr>
+
+
+
+        </table>
+        <!-- CSS Table -->
+
+
+        <!-- CSS Cheat-Sheet -->
+
+
+
+        <a href="#top">
+            <button type="button" class="bottom_button">
+                Top of Page
+            </button>
+        </a>
+
+
+        <!-- HTML Logo -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <!-- CSS Logo -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+
+ </html>

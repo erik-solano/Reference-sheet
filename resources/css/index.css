@@ -1,0 +1,108 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.banner {
+    text-align: center;
+    background-color: rgba(226, 202, 149, 0.925);
+    border-radius: 10px 10px;
+}
+
+body {
+    background-color: rgb(245, 236, 224);
+}
+
+h1 {
+    display: inline-block;
+}
+
+.buttons {
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.button {
+    vertical-align: center;
+    border-radius: 20px 40px;
+    border-color: rgb(233, 166, 65);
+    background-color: rgb(228, 184, 119);
+    margin-right: 40px;
+}
+
+.button:hover {
+    background-color: rgba(233, 205, 163, 0.767);
+}
+
+h2 {
+    display: inline-block;
+    margin-top: 30px;
+    padding-right: 10px;
+}
+
+.HTML_banner {
+    background-color:rgb(241, 214, 172);
+    border-radius: 10px 10px;
+    padding: 15px 15px;
+    margin-left: 20px;
+}
+
+
+table, th, td {
+    border: solid 1px grey;
+    border-collapse: collapse;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 300px;
+}
+
+th, td {
+    padding: 15px;
+}
+
+.CSS_banner {
+    background-color:rgb(241, 214, 172);
+    border-radius: 10px 10px;
+    padding: 15px 15px;
+    margin-left: 20px;
+}
+
+.bottom_button {
+    margin:0 auto;
+    display: block;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px 20px;
+    border-color: rgb(233, 166, 65);
+    background-color: rgb(228, 184, 119);
+    font-weight: bold;
+    font-size: large;
+}
+
+.bottom_button:hover {
+    background-color: rgba(233, 205, 163, 0.767);
+}
+
+
+
+
+
+
+
+
+
+
+
